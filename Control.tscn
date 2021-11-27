@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Control.gd" type="Script" id=1]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="CenterContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="LineEdit" type="LineEdit" parent="VBoxContainer"]
+margin_left = 412.0
+margin_top = 250.0
+margin_right = 612.0
+margin_bottom = 350.0
+rect_min_size = Vector2( 200, 100 )
